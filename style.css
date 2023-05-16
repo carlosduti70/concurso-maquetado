@@ -1,0 +1,434 @@
+:root {
+    --rosa: #FC6BB0;
+    --rosa_claro: #F8B5DC;
+    --rosa_claro2: #F2CCE4;
+    --gris: #B2BABB;
+    --gris_oscuro: #7F8C8D;
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+#general{
+    display: grid;
+    grid-template-columns: 27% 35% auto;
+    grid-template-rows: 100%;
+    width: 100%;
+    height: 848px;
+    margin: 0 auto;
+}
+
+#homes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+#navv{
+    justify-content: center;
+    width: 150px;
+    align-items: center;
+}
+.navegation{
+    margin: 0;
+    width: 125px;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.navegation .uno{
+    margin-left: 25px;
+}
+
+#home .uno{
+    color: var(--rosa);
+}
+
+
+.boton{
+    margin-top: 25px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: white;
+    width: 250px;
+    height: 50px;
+    background-color: var(--rosa);
+}
+
+.user{
+    height: 65px;
+    width: 250px;
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: 25% 65% auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagen{
+    width: 50px;
+    height: 50px;
+    background-image: url(https://laletrade.com/images/biografia/Zarcort.jpg);
+    background-size: cover;
+    border-radius: 50%;
+
+}
+
+.usuario p{
+    font-weight: bold;
+}
+.usuario2 p{
+    font-weight: bold;
+}
+p span{
+    color: var(--gris_oscuro);
+    font-weight: normal;
+}
+
+#cuerpo{
+    border-left: 1px solid var(--gris);
+    border-right: 1px solid var(--gris);
+    text-align: center;
+}
+
+#chismes{
+    margin-left: 30px;
+
+}
+
+.encabezado{
+    border-bottom: 1px solid var(--gris);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.encabezado p{
+    margin: 1px 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.new{
+    padding: 5px 15px;
+    border-bottom: 1px solid var(--gris);
+}
+.write{
+    display: flex;
+    align-items: center;
+
+}
+
+.write .imagen{
+    width: 50px;
+    height: 50px;
+}
+.loquepienso p{
+    margin-left: 20px;
+    color: var(--gris_oscuro);
+    font-size: 20px;
+}
+
+.contenido{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 14% 40% 30% auto;
+    align-items: center; 
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenido .boton{
+    width: 80px;
+    line-height: 35px;
+    font-size: 17px;
+    height: 40px;
+    margin-top: 0;
+    background-color: var(--rosa_claro);
+}
+
+.enblanco{
+    height: 12px;
+    border-bottom: 1px solid var(--gris);
+    background-color: #F4F6F6;
+}
+.usuario .imagen{
+    width: 50px;
+    height: 50px;
+    background-image: url(https://labiode.com/wp-content/uploads/2021/08/Cyclo-03.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.usuario p{
+    line-height: 1.5;
+}
+
+.publicacion .usuario{
+    padding: 1px 15px;
+    height: 65px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 12% 90% ;
+    justify-content: space-between;
+    text-align: start;
+    align-items: center;
+}
+
+
+
+.publicacion .img{
+    width: 84%;
+    max-width: 700px;
+    height: 215px;
+    background-image: url(https://pbs.twimg.com/media/FvyiHvgXgAEyw2G?format=jpg&name=small);
+    background-size: cover;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: 73px;
+}
+.publicacion .reacciones{
+    margin-top: 10px;
+    display: flex;
+    width: 400px;
+    align-items: center;
+    text-align: center;
+    margin-left: 73px;
+    justify-content: space-between;
+}
+.reacciones p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--gris_oscuro);
+    font-size: 15px;
+}
+.reaccionn {
+    width: 50px;
+    display:flex;
+}
+
+.publicacion{
+    border-bottom: 1px solid var(--gris);
+}
+
+.showthread{
+    display: flex;
+    height: 35px;
+    align-items: center;
+    margin-left: 73px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: var(--rosa);
+}
+
+/* ----------------------------------------- */
+.usuario .imagen{
+    width: 50px;
+    height: 50px;
+    background-image: url(https://labiode.com/wp-content/uploads/2021/08/Cyclo-03.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.usuario p{
+    line-height: 1.5;
+}
+.publicacion2 .img{
+    width: 84%;
+    max-width: 600px;
+    height: 215px;
+    background-image: url(https://labiode.com/wp-content/uploads/2021/08/Zarcort.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: 73px;
+}
+.publicacion2 .reacciones{
+    margin-top: 10px;
+    display: flex;
+    width: 400px;
+    align-items: center;
+    text-align: center;
+    margin-left: 73px;
+    justify-content: space-between;
+}
+.reaccionn {
+    width: 50px;
+    display:flex;
+}
+.publicacion2 .usuario2{
+    padding: 1px 15px;
+    height: 65px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 12% 90% ;
+    justify-content: space-between;
+    text-align: start;
+    align-items: center;
+}
+
+/* -------------------------------------------------------- */
+.buscador{
+    border-radius: 25px;
+    width: 350px;
+    height: 40px;
+    background-color: #EBEDEF;
+    margin-top: 9px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+}
+.buscador p{
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    color: var(--gris_oscuro);
+}
+
+.ultimos{
+    border-radius: 25px;
+    width: 350px;
+    height: 455px;
+    background-color: var(--rosa_claro2);
+    margin-top: 15px;
+    display: grid;
+    grid-template-rows: 10% 26% 26% 26% auto;
+}
+
+
+
+.titulo{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+.ultimos .noticia1{
+    display: grid;
+    grid-template-rows: 75% auto;
+    border-bottom: 1px solid white;
+}
+.trending{
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.trending p{
+    color: var(--rosa);
+}
+.ultimos .noti{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 70% auto;
+    font-weight: bolder;
+    font-size: 14px;
+    
+}
+.noti img{
+    border-radius: 15px;
+    width: 75px;
+    height: 75px;
+    margin-left: 25px;
+}
+
+.ultimos .noticia2{
+    display: grid;
+    grid-template-rows: 75% auto;
+    border-bottom: 1px solid white;
+}
+
+.ultimos .noticia3{
+    display: grid;
+    grid-template-rows: 75% auto;
+    border-bottom: 1px solid white;
+}
+
+
+.showmore{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 15px;
+    color: var(--rosa);
+    font-weight: bold;
+}
+
+.recomendaciones{
+    border-radius: 25px;
+    width: 350px;
+    height: 240px;
+    background-color: var(--rosa_claro2);
+    margin-top: 15px;
+    display: grid;
+    grid-template-rows: 20% 30% 30% 20%;
+}
+
+.follow1{
+    display: grid;
+    grid-template-columns: 23% 50% auto;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.follow1 .imagen{
+    margin-left: 15px;
+    background-image: url(https://pbs.twimg.com/profile_images/1114906369650511873/x4pornV1_400x400.jpg);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.button{
+    border-radius: 20px;
+    border: 1px solid var(--rosa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 80px;
+}
+.button p{
+    color: var(--rosa);
+}
+
+.follow2{
+    display: grid;
+    grid-template-columns: 23% 50% auto;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.follow2 .imagen{
+    margin-left: 15px;
+    background-image: url(https://pbs.twimg.com/profile_images/918211974470815751/Ak6b-yut_400x400.jpg);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.pie{
+    font-size: 11px;
+    margin-top: 15px;
+    color: var(--gris_oscuro);
+}
